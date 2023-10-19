@@ -116,6 +116,8 @@ img {
   margin-right: var(--mb-2);
 }
 
+
+
 .l-header {
   width: 100%;
   position: fixed;
@@ -340,6 +342,12 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+@media screen and (max-width: 500px) {
+  .bd-grid-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 .contact__input {
   width: 100%;
@@ -497,3 +505,14 @@ img {
 ::after {
   box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
