@@ -87,6 +87,7 @@ img {
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+  
 }
 
 .section-title::after {
@@ -506,3 +507,49 @@ img {
   box-sizing: border-box;
 }
 
+
+
+/* skill badge */
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1200px; */
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* #badges{
+  justify-items: center
+
+
+} */
+@media (max-width: 768px) {
+  .logo-container {
+  
+  gap: 30px;
+  }
+
+  .logo {
+
+      flex: 1 1 50%; /* Each logo takes full width on smaller screens */
+      max-width: 100%;
+  }
+}
+
+.section-title img{
+  /* margin-bottom: 50px; */
+  display: inline;
+}
