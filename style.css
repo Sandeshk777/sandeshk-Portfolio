@@ -549,7 +549,17 @@ img {
   }
 }
 
+.martk{
+  display: inline-block; font-size: 2.3rem; color: #0062ff; background: #ffffff; border-radius: 6px; padding: 5px 5px;
+}
 .section-title img{
   /* margin-bottom: 50px; */
   display: inline;
+}
+@media (max-width:768px) {
+ 
+.mark{
+ /* display: none; */
+ font-size: 20px;
+} 
 }
